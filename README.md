@@ -24,26 +24,26 @@ This project is an **AI-powered chatbot** that allows users to upload **PDF docu
 
 ## 🛠️ Installation & Setup
 
-### **1️⃣ Clone the Repository**
+1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/pdf-chatbot.git
 cd pdf-chatbot
 
 
-### **2️⃣ Install Dependencies**
+2️⃣ Install Dependencies
 
 
 Make sure you have Python 3.7+ installed. Then run:
 pip install -r requirements.txt
 
 
-### **3️⃣ Run the FastAPI Backend**
+3️⃣ Run the FastAPI Backend
 
 uvicorn app:app --reload
 ✅ API running at: http://127.0.0.1:8000
 
 
-### **4️⃣ Run the Streamlit Frontend**
+4️⃣ Run the Streamlit Frontend
 
 streamlit run app_frontend.py
 ✅ Frontend running at: http://localhost:8501
