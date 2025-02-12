@@ -15,7 +15,7 @@ This project is an **AI-powered chatbot** that allows users to upload **PDF docu
 ✅ Extract and store the text as **vector embeddings**  
 ✅ Ask questions and receive **AI-generated answers**  
 ✅ Uses **LangChain** for intelligent document querying  
-✅ Supports **TinyLlama-1.1B** and other **HuggingFace models**  
+✅ Supports **TinyLlama-1.1B** and other **HuggingFace models**  (but I have used TinyLlama/TinyLlama-1.1B-Chat-v1.0 in this case due to memory and gpu issues, if you have gpu installed, you might opt for a more larger and efficient model like mistral or any other llm)
 
 ---
 
