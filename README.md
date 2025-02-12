@@ -24,15 +24,14 @@ This project is an **AI-powered chatbot** that allows users to upload **PDF docu
 
 ## 🛠️ Installation & Setup
 
-
-1️⃣ Clone the Repository
 ```bash
+1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/pdf-chatbot.git
 cd pdf-chatbot
 
 
 2️⃣ Install Dependencies
-
 
 Make sure you have Python 3.7+ installed. Then run:
 pip install -r requirements.txt
@@ -82,11 +81,9 @@ CMD uvicorn app:app --host 0.0.0.0 --port 8000 & streamlit run app_frontend.py -
 3️⃣ Build And Run the Docker Container
 
 Build the image
-
 docker build -t pdf-chatbot .
 
 Run the container
-
 docker run -p 8000:8000 -p 8501:8501 pdf-chatbot
 
 ✅ Now, visit:
