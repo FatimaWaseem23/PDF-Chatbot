@@ -24,6 +24,7 @@ This project is an **AI-powered chatbot** that allows users to upload **PDF docu
 
 ## 🛠️ Installation & Setup
 
+
 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/pdf-chatbot.git
@@ -47,14 +48,6 @@ uvicorn app:app --reload
 
 streamlit run app_frontend.py
 ✅ Frontend running at: http://localhost:8501
-
-
-
-🏃 Usage
-
-    Upload a PDF in the Streamlit interface
-    Ask a question related to the document
-    The chatbot retrieves relevant text and provides an AI-generated response
 
 
 🔧 Docker Deployment
@@ -86,7 +79,7 @@ EXPOSE 8000 8501
 # Start the API and Streamlit UI together
 CMD uvicorn app:app --host 0.0.0.0 --port 8000 & streamlit run app_frontend.py --server.port 8501 --server.address 0.0.0.0
 
-3️⃣ Build & Run the Docker Container
+3️⃣ Build And Run the Docker Container
 
 Build the image
 
@@ -100,3 +93,10 @@ docker run -p 8000:8000 -p 8501:8501 pdf-chatbot
 
     API: http://localhost:8000
     Streamlit UI: http://localhost:8501
+
+
+🏃 Usage
+
+    Upload a PDF in the Streamlit interface
+    Ask a question related to the document
+    The chatbot retrieves relevant text and provides an AI-generated response
